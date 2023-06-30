@@ -20086,7 +20086,7 @@ Standard 0402 sized pads with cathode pin indicator.
 To remove pullups</text>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector" align="center-left">V11</text>
 <text x="170.688" y="12.446" size="2.54" layer="94" font="vector" align="center-left">Nathan Seidle</text>
-<text x="201.676" y="100.076" size="1.778" layer="97" font="vector" align="top-left">ADR2 sets the I2C address
+<text x="201.676" y="97.536" size="1.778" layer="97" font="vector" align="top-left">ADR2 sets the I2C address
 of the BME280.
 Open (Default) - 0x77
 Closed - 0x76
@@ -20094,7 +20094,8 @@ Closed - 0x76
 <text x="173.736" y="112.268" size="1.778" layer="97" font="vector" align="top-left">BME280 is configured to I2C mode</text>
 <text x="158.242" y="176.022" size="2.54" layer="94" font="vector" rot="MR180" align="top-left">BME280 - Humidty, Pressure, Temperature </text>
 <wire x1="248.92" y1="68.58" x2="152.4" y2="68.58" width="0.2032" layer="97" style="longdash"/>
-<wire x1="152.4" y1="68.58" x2="88.9" y2="68.58" width="0.2032" layer="97" style="longdash"/>
+<wire x1="152.4" y1="68.58" x2="147.32" y2="68.58" width="0.2032" layer="97" style="longdash"/>
+<wire x1="147.32" y1="68.58" x2="88.9" y2="68.58" width="0.2032" layer="97" style="longdash"/>
 <wire x1="88.9" y1="68.58" x2="40.64" y2="68.58" width="0.2032" layer="97" style="longdash"/>
 <wire x1="40.64" y1="68.58" x2="0" y2="68.58" width="0.2032" layer="97" style="longdash"/>
 <wire x1="152.4" y1="185.42" x2="152.4" y2="132.08" width="0.2032" layer="97" style="longdash"/>
@@ -20138,7 +20139,8 @@ to disable Power LED</text>
 <wire x1="152.4" y1="132.08" x2="88.9" y2="132.08" width="0.2032" layer="97" style="longdash"/>
 <text x="119.38" y="121.92" size="2.54" layer="94" font="vector" align="center">I2C Pullups</text>
 <wire x1="40.64" y1="68.58" x2="40.64" y2="0" width="0.2032" layer="97" style="longdash"/>
-<text x="142.24" y="60.96" size="2.54" layer="94" font="vector" align="center">Connectors</text>
+<text x="91.44" y="60.96" size="2.54" layer="94" font="vector" align="center">Connectors</text>
+<wire x1="147.32" y1="68.58" x2="147.32" y2="35.56" width="0.2032" layer="97" style="longdash"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -20170,11 +20172,11 @@ to disable Power LED</text>
 <attribute name="NAME" x="117.348" y="92.583" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="118.999" y="93.98" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
 </instance>
-<instance part="LOGO4" gate="G$1" x="76.2" y="10.16" smashed="yes"/>
+<instance part="LOGO4" gate="G$1" x="167.64" y="48.26" smashed="yes"/>
 <instance part="FD1" gate="G$1" x="238.76" y="25.4" smashed="yes"/>
 <instance part="FD2" gate="G$1" x="238.76" y="27.94" smashed="yes"/>
-<instance part="GND2" gate="1" x="182.88" y="119.38" smashed="yes">
-<attribute name="VALUE" x="180.34" y="116.84" size="1.778" layer="96" font="vector"/>
+<instance part="GND2" gate="1" x="182.88" y="116.84" smashed="yes">
+<attribute name="VALUE" x="180.34" y="114.3" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND7" gate="1" x="170.18" y="119.38" smashed="yes">
 <attribute name="VALUE" x="167.64" y="116.84" size="1.778" layer="96" font="vector"/>
@@ -20183,16 +20185,16 @@ to disable Power LED</text>
 <attribute name="NAME" x="171.704" y="129.921" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="171.704" y="124.841" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND8" gate="1" x="231.14" y="106.68" smashed="yes">
-<attribute name="VALUE" x="228.6" y="104.14" size="1.778" layer="96" font="vector"/>
+<instance part="GND8" gate="1" x="231.14" y="104.14" smashed="yes">
+<attribute name="VALUE" x="228.6" y="101.6" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="R3" gate="G$1" x="231.14" y="132.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="229.616" y="132.08" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="232.664" y="132.08" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="BME_ADR" gate="G$1" x="231.14" y="116.84" smashed="yes" rot="R90">
-<attribute name="NAME" x="234.95" y="112.014" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="233.68" y="114.3" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="BME_ADR" gate="G$1" x="231.14" y="114.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="234.95" y="109.474" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="233.68" y="111.76" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="SUPPLY6" gate="G$1" x="231.14" y="139.7" smashed="yes">
 <attribute name="VALUE" x="231.14" y="142.494" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -20235,7 +20237,7 @@ to disable Power LED</text>
 <attribute name="NAME" x="104.14" y="43.434" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="LOGO2" gate="G$1" x="148.59" y="6.858" smashed="yes"/>
-<instance part="LOGO1" gate="G$1" x="88.9" y="2.54" smashed="yes"/>
+<instance part="LOGO1" gate="G$1" x="187.96" y="38.1" smashed="yes"/>
 <instance part="FD3" gate="G$1" x="241.3" y="27.94" smashed="yes"/>
 <instance part="FD4" gate="G$1" x="241.3" y="25.4" smashed="yes"/>
 <instance part="U2" gate="G$1" x="43.18" y="142.24" smashed="yes">
@@ -20293,9 +20295,9 @@ to disable Power LED</text>
 <attribute name="NAME" x="121.92" y="160.274" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="121.92" y="144.526" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="C2" gate="G$1" x="101.6" y="147.32" smashed="yes">
-<attribute name="NAME" x="100.457" y="151.384" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="100.711" y="140.97" size="1.778" layer="96" font="vector" rot="R90"/>
+<instance part="C2" gate="G$1" x="101.6" y="149.86" smashed="yes">
+<attribute name="NAME" x="100.457" y="153.924" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="100.711" y="143.51" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="C5" gate="G$1" x="142.24" y="149.86" smashed="yes">
 <attribute name="NAME" x="143.764" y="152.781" size="1.778" layer="95" font="vector"/>
@@ -20307,22 +20309,22 @@ to disable Power LED</text>
 <instance part="SUPPLY5" gate="G$1" x="142.24" y="160.02" smashed="yes">
 <attribute name="VALUE" x="142.24" y="162.814" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND10" gate="1" x="101.6" y="139.7" smashed="yes">
-<attribute name="VALUE" x="101.6" y="139.446" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND10" gate="1" x="101.6" y="142.24" smashed="yes">
+<attribute name="VALUE" x="101.6" y="141.986" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND11" gate="1" x="116.84" y="139.7" smashed="yes">
-<attribute name="VALUE" x="116.84" y="139.446" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND11" gate="1" x="116.84" y="142.24" smashed="yes">
+<attribute name="VALUE" x="116.84" y="141.986" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND12" gate="1" x="142.24" y="139.7" smashed="yes">
-<attribute name="VALUE" x="142.24" y="139.446" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND12" gate="1" x="142.24" y="142.24" smashed="yes">
+<attribute name="VALUE" x="142.24" y="141.986" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R1" gate="G$1" x="111.76" y="149.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="110.236" y="152.4" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="108.712" y="144.78" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="INT" gate="J1" x="172.72" y="48.26" smashed="yes" rot="R180">
-<attribute name="VALUE" x="175.26" y="53.086" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="175.26" y="45.212" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="INT" gate="J1" x="99.06" y="10.16" smashed="yes" rot="R180">
+<attribute name="VALUE" x="101.6" y="14.986" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="101.6" y="7.112" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="PWR" gate="G$1" x="20.32" y="27.94" smashed="yes">
 <attribute name="NAME" x="16.891" y="23.368" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -20362,13 +20364,14 @@ to disable Power LED</text>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="231.14" y1="109.22" x2="231.14" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="106.68" x2="231.14" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="BME_ADR" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U3" gate="U1" pin="GND"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="185.42" y1="121.92" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="121.92" x2="182.88" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="124.46" y1="33.02" x2="121.92" y2="33.02" width="0.1524" layer="91"/>
@@ -20409,19 +20412,19 @@ to disable Power LED</text>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="144.78" x2="101.6" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="147.32" x2="101.6" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="116.84" y1="147.32" x2="119.38" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="142.24" x2="116.84" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="144.78" x2="116.84" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="142.24" y1="147.32" x2="142.24" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="147.32" x2="142.24" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -20442,8 +20445,8 @@ to disable Power LED</text>
 <label x="124.46" y="78.74" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="218.44" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="213.36" y1="127" x2="218.44" y2="127" width="0.1524" layer="91"/>
+<label x="215.9" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="213.36" y1="127" x2="215.9" y2="127" width="0.1524" layer="91"/>
 <pinref part="U3" gate="U1" pin="SCK/SCL"/>
 </segment>
 <segment>
@@ -20475,8 +20478,8 @@ to disable Power LED</text>
 <label x="109.22" y="78.74" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="218.44" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="213.36" y1="129.54" x2="218.44" y2="129.54" width="0.1524" layer="91"/>
+<label x="215.9" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="213.36" y1="129.54" x2="215.9" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U3" gate="U1" pin="SDI/SDA"/>
 </segment>
 <segment>
@@ -20568,7 +20571,7 @@ to disable Power LED</text>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="160.02" x2="101.6" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="IN"/>
-<wire x1="101.6" y1="157.48" x2="101.6" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="157.48" x2="101.6" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="157.48" x2="111.76" y2="157.48" width="0.1524" layer="91"/>
 <junction x="101.6" y="157.48"/>
 <pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
@@ -20585,8 +20588,8 @@ to disable Power LED</text>
 </net>
 <net name="!INT" class="0">
 <segment>
-<wire x1="165.1" y1="48.26" x2="162.56" y2="48.26" width="0.1524" layer="91"/>
-<label x="162.56" y="48.26" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="91.44" y1="10.16" x2="88.9" y2="10.16" width="0.1524" layer="91"/>
+<label x="88.9" y="10.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="INT" gate="J1" pin="1"/>
 </segment>
 </net>
@@ -20610,10 +20613,11 @@ to disable Power LED</text>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="BME_ADR" gate="G$1" pin="2"/>
+<wire x1="231.14" y1="119.38" x2="231.14" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="121.92" x2="231.14" y2="127" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="121.92" x2="231.14" y2="121.92" width="0.1524" layer="91"/>
-<junction x="231.14" y="121.92"/>
 <pinref part="U3" gate="U1" pin="SDO/ADR"/>
+<wire x1="231.14" y1="121.92" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
+<junction x="231.14" y="121.92"/>
 </segment>
 </net>
 <net name="!INT!" class="0">
