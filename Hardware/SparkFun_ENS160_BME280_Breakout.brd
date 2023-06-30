@@ -55,7 +55,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -80,7 +80,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
@@ -206,13 +206,12 @@
 <text x="8.509" y="10.414" size="0.6096" layer="25">CCS811</text>
 <text x="14.859" y="10.541" size="0.6096" layer="25">BME280</text>
 <text x="16.51" y="-24.13" size="1.778" layer="51">Andrew England, P. Lewis</text>
-<dimension x1="0" y1="0" x2="25.4" y2="0" x3="12.7" y3="-3.81" textsize="1.778" layer="47"/>
-<dimension x1="0" y1="0" x2="0" y2="25.4" x3="-5.08" y3="12.7" textsize="1.778" layer="47"/>
-<dimension x1="5.08" y1="1.27" x2="0" y2="1.27" x3="2.54" y3="-7.62" textsize="1.778" layer="47"/>
-<dimension x1="2.54" y1="22.86" x2="2.54" y2="0" x3="-1.27" y3="11.43" textsize="1.778" layer="47"/>
-<dimension x1="2.54" y1="22.86" x2="0" y2="22.86" x3="1.27" y3="26.67" textsize="1.778" layer="47"/>
-<dimension x1="22.86" y1="22.86" x2="0" y2="22.86" x3="11.43" y3="30.48" textsize="1.778" layer="47"/>
-<text x="-1.27" y="-12.7" size="1.778" layer="47">Measurements in mm</text>
+<dimension x1="0" y1="0" x2="25.4" y2="0" x3="12.7" y3="34.29" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="0" y2="25.4" x3="-13.97" y3="12.7" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="22.86" x2="2.54" y2="0" x3="-10.16" y3="11.43" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="22.86" x2="0" y2="22.86" x3="1.27" y3="26.67" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="22.86" y1="22.86" x2="0" y2="22.86" x3="11.43" y3="30.48" textsize="1.778" layer="47" unit="inch"/>
+<text x="-1.27" y="-12.7" size="1.778" layer="47">Measurements units: INCHES</text>
 <text x="46.228" y="40.259" size="1.778" layer="51" font="vector" align="top-left">Soldermask: Red
 Thickness: 1.6mm
 2-Layer Design
@@ -220,6 +219,13 @@ Thickness: 1.6mm
 Finish: HASL</text>
 <wire x1="12.227565625" y1="13.749015625" x2="12.278359375" y2="12.748259375" width="0.1524" layer="22" curve="-126.475581"/>
 <wire x1="7.442196875" y1="12.763503125" x2="7.4701375" y2="13.73631875" width="0.1524" layer="22" curve="-126.475581"/>
+<dimension x1="25.4" y1="0" x2="22.33421875" y2="18.336259375" x3="29.8958" y3="9.168128125" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="0" y1="0" x2="5.08" y2="12.7" x3="-6.35" y3="6.35" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="0" y1="0" x2="2.54" y2="2.54" x3="-2.54" y3="1.27" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="0" y1="0" x2="7.62" y2="1.27" x3="3.81" y3="-3.81" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="17.78" y1="1.27" x2="15.24" y2="1.27" x3="16.51" y3="-3.81" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="25.4" x2="2.54" y2="22.86" x3="-7.62" y3="24.13" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="22.86" y1="2.54" x2="22.86" y2="22.86" x3="34.29" y3="12.7" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">

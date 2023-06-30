@@ -20082,11 +20082,11 @@ Standard 0402 sized pads with cathode pin indicator.
 <sheets>
 <sheet>
 <plain>
-<text x="119.38" y="119.38" size="1.27" layer="97" font="vector" align="top-center">Clear I2C Jumper
+<text x="119.38" y="119.38" size="1.778" layer="97" font="vector" align="top-center">Clear I2C Jumper
 To remove pullups</text>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector" align="center-left">V11</text>
 <text x="170.688" y="12.446" size="2.54" layer="94" font="vector" align="center-left">Nathan Seidle</text>
-<text x="219.456" y="100.076" size="1.27" layer="97" font="vector" align="top-left">ADR2 sets the I2C address
+<text x="201.676" y="100.076" size="1.778" layer="97" font="vector" align="top-left">ADR2 sets the I2C address
 of the BME280.
 Open (Default) - 0x77
 Closed - 0x76
