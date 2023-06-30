@@ -20078,6 +20078,9 @@ Standard 0402 sized pads with cathode pin indicator.
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="H1" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
+<part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C6" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
+<part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20178,12 +20181,12 @@ to disable Power LED</text>
 <instance part="GND2" gate="1" x="182.88" y="116.84" smashed="yes">
 <attribute name="VALUE" x="180.34" y="114.3" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND7" gate="1" x="170.18" y="119.38" smashed="yes">
-<attribute name="VALUE" x="167.64" y="116.84" size="1.778" layer="96" font="vector"/>
+<instance part="GND7" gate="1" x="180.34" y="81.28" smashed="yes">
+<attribute name="VALUE" x="177.8" y="78.74" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C1" gate="G$1" x="170.18" y="127" smashed="yes">
-<attribute name="NAME" x="171.704" y="129.921" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="171.704" y="124.841" size="1.778" layer="96" font="vector"/>
+<instance part="C1" gate="G$1" x="180.34" y="88.9" smashed="yes">
+<attribute name="NAME" x="181.864" y="91.821" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="181.864" y="86.741" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND8" gate="1" x="231.14" y="104.14" smashed="yes">
 <attribute name="VALUE" x="228.6" y="101.6" size="1.778" layer="96" font="vector"/>
@@ -20205,8 +20208,8 @@ to disable Power LED</text>
 <instance part="SUPPLY12" gate="G$1" x="215.9" y="137.16" smashed="yes">
 <attribute name="VALUE" x="215.9" y="139.954" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY14" gate="G$1" x="170.18" y="134.62" smashed="yes">
-<attribute name="VALUE" x="170.18" y="137.414" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY14" gate="G$1" x="180.34" y="96.52" smashed="yes">
+<attribute name="VALUE" x="180.34" y="99.314" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="U3" gate="U1" x="198.12" y="129.54" smashed="yes">
 <attribute name="NAME" x="187.96" y="137.414" size="1.778" layer="95" font="vector"/>
@@ -20346,6 +20349,16 @@ to disable Power LED</text>
 </instance>
 <instance part="H1" gate="G$1" x="243.84" y="27.94" smashed="yes"/>
 <instance part="H3" gate="G$1" x="246.38" y="27.94" smashed="yes"/>
+<instance part="GND13" gate="1" x="167.64" y="81.28" smashed="yes">
+<attribute name="VALUE" x="165.1" y="78.74" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C6" gate="G$1" x="167.64" y="88.9" smashed="yes">
+<attribute name="NAME" x="169.164" y="91.821" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="169.164" y="86.741" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="SUPPLY13" gate="G$1" x="167.64" y="96.52" smashed="yes">
+<attribute name="VALUE" x="167.64" y="99.314" size="1.778" layer="96" font="vector" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -20360,7 +20373,7 @@ to disable Power LED</text>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="121.92" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="83.82" x2="180.34" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -20430,6 +20443,11 @@ to disable Power LED</text>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="20.32" y1="7.62" x2="20.32" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND13" gate="1" pin="GND"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="83.82" x2="167.64" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -20511,7 +20529,7 @@ to disable Power LED</text>
 <wire x1="119.38" y1="104.14" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="170.18" y1="132.08" x2="170.18" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="93.98" x2="180.34" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY14" gate="G$1" pin="3.3V"/>
 </segment>
@@ -20585,12 +20603,10 @@ to disable Power LED</text>
 <wire x1="20.32" y1="45.72" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="LED" gate="G$1" pin="1"/>
 </segment>
-</net>
-<net name="!INT" class="0">
 <segment>
-<wire x1="91.44" y1="10.16" x2="88.9" y2="10.16" width="0.1524" layer="91"/>
-<label x="88.9" y="10.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="INT" gate="J1" pin="1"/>
+<wire x1="167.64" y1="93.98" x2="167.64" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="SUPPLY13" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -20625,6 +20641,11 @@ to disable Power LED</text>
 <pinref part="U2" gate="G$1" pin="!INT!"/>
 <wire x1="63.5" y1="147.32" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
 <label x="63.5" y="147.32" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<label x="88.9" y="10.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="INT" gate="J1" pin="1"/>
+<wire x1="88.9" y1="10.16" x2="91.44" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="1.8V" class="0">
