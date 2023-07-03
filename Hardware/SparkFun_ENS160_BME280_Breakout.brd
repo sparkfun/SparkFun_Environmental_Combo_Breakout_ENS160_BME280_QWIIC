@@ -2340,20 +2340,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;li&gt;Package Size: 3mm x 3mm&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=”https://www.sciosense.com/wp-content/uploads/documents/SC-001224-DS-7-ENS160-Datasheet.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
+<circle x="-1.9335" y="1.905" radius="0.25164375" width="0" layer="21"/>
 <wire x1="-1.6" y1="1.55" x2="-1.6" y2="-1.6" width="0.1" layer="51"/>
 <wire x1="-1.6" y1="-1.6" x2="1.55" y2="-1.6" width="0.1" layer="51"/>
 <wire x1="1.55" y1="-1.6" x2="1.55" y2="1.55" width="0.1" layer="51"/>
 <wire x1="1.55" y1="1.55" x2="-1.6" y2="1.55" width="0.1" layer="51"/>
-<circle x="-1.87" y="1.905" radius="0.25164375" width="0" layer="21"/>
-<smd name="P1" x="-1.085" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P2" x="-1.085" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P3" x="-1.085" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P4" x="-0.035" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P9" x="-0.035" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P8" x="-0.035" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P5" x="1.015" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P6" x="1.015" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P7" x="1.015" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<wire x1="-1.6635" y1="1.2" x2="-1.6635" y2="1.6135" width="0.2032" layer="21"/>
+<wire x1="-1.6635" y1="1.6135" x2="-1.25" y2="1.6135" width="0.2032" layer="21"/>
+<wire x1="-1.25" y1="-1.6635" x2="-1.6635" y2="-1.6635" width="0.2032" layer="21"/>
+<wire x1="-1.6635" y1="-1.6635" x2="-1.6635" y2="-1.25" width="0.2032" layer="21"/>
+<wire x1="1.2" y1="1.6135" x2="1.6135" y2="1.6135" width="0.2032" layer="21"/>
+<wire x1="1.6135" y1="1.6135" x2="1.6135" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="1.6135" y1="-1.25" x2="1.6135" y2="-1.6635" width="0.2032" layer="21"/>
+<wire x1="1.6135" y1="-1.6635" x2="1.2" y2="-1.6635" width="0.2032" layer="21"/>
+<wire x1="-1.7272" y1="1.6764" x2="-1.7272" y2="-1.7272" width="0.1524" layer="39"/>
+<wire x1="-1.7272" y1="-1.7272" x2="1.6764" y2="-1.7272" width="0.1524" layer="39"/>
+<wire x1="1.6764" y1="-1.7272" x2="1.6764" y2="1.6764" width="0.1524" layer="39"/>
+<wire x1="1.6764" y1="1.6764" x2="-1.7272" y2="1.6764" width="0.1524" layer="39"/>
 <rectangle x1="-1.535" y1="0.605" x2="-0.635" y2="1.455" layer="29"/>
 <rectangle x1="-1.535" y1="-0.445" x2="-0.635" y2="0.405" layer="29"/>
 <rectangle x1="-1.535" y1="-1.495" x2="-0.635" y2="-0.645" layer="29"/>
@@ -2372,20 +2375,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.62" y1="0.65" x2="1.42" y2="1.41" layer="31"/>
 <rectangle x1="0.62" y1="-0.4" x2="1.42" y2="0.36" layer="31"/>
 <rectangle x1="0.62" y1="-1.45" x2="1.42" y2="-0.69" layer="31"/>
-<wire x1="-1.6" y1="1.2" x2="-1.6" y2="1.55" width="0.1" layer="21"/>
-<wire x1="-1.6" y1="1.55" x2="-1.25" y2="1.55" width="0.1" layer="21"/>
-<wire x1="-1.25" y1="-1.6" x2="-1.6" y2="-1.6" width="0.1" layer="21"/>
-<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="-1.25" width="0.1" layer="21"/>
-<wire x1="1.2" y1="1.55" x2="1.55" y2="1.55" width="0.1" layer="21"/>
-<wire x1="1.55" y1="1.55" x2="1.55" y2="1.2" width="0.1" layer="21"/>
-<wire x1="1.55" y1="-1.25" x2="1.55" y2="-1.6" width="0.1" layer="21"/>
-<wire x1="1.55" y1="-1.6" x2="1.2" y2="-1.6" width="0.1" layer="21"/>
+<smd name="P1" x="-1.085" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P2" x="-1.085" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P3" x="-1.085" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P4" x="-0.035" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P5" x="1.015" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P6" x="1.015" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P7" x="1.015" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P8" x="-0.035" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P9" x="-0.035" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
 <text x="-1.6256" y="1.7272" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
 <text x="-1.7526" y="-2.3876" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<wire x1="-1.7272" y1="1.6764" x2="-1.7272" y2="-1.7272" width="0.1524" layer="39"/>
-<wire x1="-1.7272" y1="-1.7272" x2="1.6764" y2="-1.7272" width="0.1524" layer="39"/>
-<wire x1="1.6764" y1="-1.7272" x2="1.6764" y2="1.6764" width="0.1524" layer="39"/>
-<wire x1="1.6764" y1="1.6764" x2="-1.7272" y2="1.6764" width="0.1524" layer="39"/>
 </package>
 </packages>
 </library>
@@ -8501,10 +8501,10 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="0.88391875" y="20.69338125" smashed="yes" rot="MR0"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1@1" value="SFE_LOGO_NAME.1_INCH" x="18.669" y="20.93595" smashed="yes" rot="MR0"/>
 <element name="U$59" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="" x="44.45" y="50.8" smashed="yes"/>
-<element name="U2" library="SparkFun-Sensors" package="LGA-9" value="ENS-160" x="10.16" y="12.7" smashed="yes">
+<element name="U2" library="SparkFun-Sensors" package="LGA-9" value="ENS160" x="10.16" y="12.7" smashed="yes">
 <attribute name="NAME" x="8.5344" y="14.4272" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="IC-17100" x="5.08" y="19.05" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="8.4074" y="10.3124" size="0.6096" layer="27" font="vector" ratio="20"/>
+<attribute name="VALUE" value="ENS160" x="8.4074" y="10.3124" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R6" library="SparkFun-Resistors" package="0402-TIGHT" value="10k" x="11.186159375" y="16.037559375" smashed="yes" rot="R90">
 <attribute name="NAME" x="10.424159375" y="16.037559375" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>

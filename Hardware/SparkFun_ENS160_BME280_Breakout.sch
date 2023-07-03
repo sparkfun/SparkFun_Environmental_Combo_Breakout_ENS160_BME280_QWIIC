@@ -15693,11 +15693,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
 <circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
 </symbol>
-<symbol name="DGND">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
 <symbol name="REVISION">
 <description>&lt;h3&gt;"Revision By" Text - Symbol&lt;/h3&gt;
 &lt;p&gt;Preceding text for revisor documentation.&lt;/p&gt;
@@ -16740,19 +16735,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </technologies>
 </device>
 <device name="0.2MM" package="FIDUCIAL-0.2MM">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="GND" prefix="GND">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="DGND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -19483,20 +19465,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;li&gt;Package Size: 3mm x 3mm&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=”https://www.sciosense.com/wp-content/uploads/documents/SC-001224-DS-7-ENS160-Datasheet.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
+<circle x="-1.9335" y="1.905" radius="0.25164375" width="0" layer="21"/>
 <wire x1="-1.6" y1="1.55" x2="-1.6" y2="-1.6" width="0.1" layer="51"/>
 <wire x1="-1.6" y1="-1.6" x2="1.55" y2="-1.6" width="0.1" layer="51"/>
 <wire x1="1.55" y1="-1.6" x2="1.55" y2="1.55" width="0.1" layer="51"/>
 <wire x1="1.55" y1="1.55" x2="-1.6" y2="1.55" width="0.1" layer="51"/>
-<circle x="-1.87" y="1.905" radius="0.25164375" width="0" layer="21"/>
-<smd name="P1" x="-1.085" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P2" x="-1.085" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P3" x="-1.085" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P4" x="-0.035" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P9" x="-0.035" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P8" x="-0.035" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P5" x="1.015" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P6" x="1.015" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P7" x="1.015" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<wire x1="-1.6635" y1="1.2" x2="-1.6635" y2="1.6135" width="0.2032" layer="21"/>
+<wire x1="-1.6635" y1="1.6135" x2="-1.25" y2="1.6135" width="0.2032" layer="21"/>
+<wire x1="-1.25" y1="-1.6635" x2="-1.6635" y2="-1.6635" width="0.2032" layer="21"/>
+<wire x1="-1.6635" y1="-1.6635" x2="-1.6635" y2="-1.25" width="0.2032" layer="21"/>
+<wire x1="1.2" y1="1.6135" x2="1.6135" y2="1.6135" width="0.2032" layer="21"/>
+<wire x1="1.6135" y1="1.6135" x2="1.6135" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="1.6135" y1="-1.25" x2="1.6135" y2="-1.6635" width="0.2032" layer="21"/>
+<wire x1="1.6135" y1="-1.6635" x2="1.2" y2="-1.6635" width="0.2032" layer="21"/>
+<wire x1="-1.7272" y1="1.6764" x2="-1.7272" y2="-1.7272" width="0.1524" layer="39"/>
+<wire x1="-1.7272" y1="-1.7272" x2="1.6764" y2="-1.7272" width="0.1524" layer="39"/>
+<wire x1="1.6764" y1="-1.7272" x2="1.6764" y2="1.6764" width="0.1524" layer="39"/>
+<wire x1="1.6764" y1="1.6764" x2="-1.7272" y2="1.6764" width="0.1524" layer="39"/>
 <rectangle x1="-1.535" y1="0.605" x2="-0.635" y2="1.455" layer="29"/>
 <rectangle x1="-1.535" y1="-0.445" x2="-0.635" y2="0.405" layer="29"/>
 <rectangle x1="-1.535" y1="-1.495" x2="-0.635" y2="-0.645" layer="29"/>
@@ -19515,20 +19500,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.62" y1="0.65" x2="1.42" y2="1.41" layer="31"/>
 <rectangle x1="0.62" y1="-0.4" x2="1.42" y2="0.36" layer="31"/>
 <rectangle x1="0.62" y1="-1.45" x2="1.42" y2="-0.69" layer="31"/>
-<wire x1="-1.6" y1="1.2" x2="-1.6" y2="1.55" width="0.1" layer="21"/>
-<wire x1="-1.6" y1="1.55" x2="-1.25" y2="1.55" width="0.1" layer="21"/>
-<wire x1="-1.25" y1="-1.6" x2="-1.6" y2="-1.6" width="0.1" layer="21"/>
-<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="-1.25" width="0.1" layer="21"/>
-<wire x1="1.2" y1="1.55" x2="1.55" y2="1.55" width="0.1" layer="21"/>
-<wire x1="1.55" y1="1.55" x2="1.55" y2="1.2" width="0.1" layer="21"/>
-<wire x1="1.55" y1="-1.25" x2="1.55" y2="-1.6" width="0.1" layer="21"/>
-<wire x1="1.55" y1="-1.6" x2="1.2" y2="-1.6" width="0.1" layer="21"/>
+<smd name="P1" x="-1.085" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P2" x="-1.085" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P3" x="-1.085" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P4" x="-0.035" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P5" x="1.015" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P6" x="1.015" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P7" x="1.015" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P8" x="-0.035" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P9" x="-0.035" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
 <text x="-1.6256" y="1.7272" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
 <text x="-1.7526" y="-2.3876" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<wire x1="-1.7272" y1="1.6764" x2="-1.7272" y2="-1.7272" width="0.1524" layer="39"/>
-<wire x1="-1.7272" y1="-1.7272" x2="1.6764" y2="-1.7272" width="0.1524" layer="39"/>
-<wire x1="1.6764" y1="-1.7272" x2="1.6764" y2="1.6764" width="0.1524" layer="39"/>
-<wire x1="1.6764" y1="1.6764" x2="-1.7272" y2="1.6764" width="0.1524" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -19552,19 +19534,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 <symbol name="ENS160">
 <description>&lt;h3&gt;ENS160&lt;/h3&gt;</description>
-<pin name="VDD" x="-12.7" y="5.08" visible="pin" length="short" direction="pwr"/>
-<pin name="VDDIO" x="-12.7" y="2.54" visible="pin" length="short" direction="pwr"/>
-<pin name="GND@8" x="-12.7" y="-2.54" visible="pin" length="short" direction="pwr"/>
-<pin name="!INT!" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="!CS!" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="PICO/SDA" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="POCI/ADDR" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="SCLK/SCL" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="GND@9" x="-12.7" y="-5.08" visible="pin" length="short" direction="pwr"/>
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
 <wire x1="12.7" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="!CS!" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="!INT!" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="GND@8" x="-12.7" y="-2.54" visible="pin" length="short" direction="pwr"/>
+<pin name="GND@9" x="-12.7" y="-5.08" visible="pin" length="short" direction="pwr"/>
+<pin name="PICO/SDA" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="POCI/ADDR" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="SCLK/SCL" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="VDD" x="-12.7" y="5.08" visible="pin" length="short" direction="pwr"/>
+<pin name="VDDIO" x="-12.7" y="2.54" visible="pin" length="short" direction="pwr"/>
 <text x="-10.16" y="8.128" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="-10.16" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
@@ -19631,6 +19613,7 @@ chip. &lt;/p&gt;</description>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="IC-17100" constant="no"/>
+<attribute name="VALUE" value="ENS160" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -20024,10 +20007,10 @@ Standard 0402 sized pads with cathode pin indicator.
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
-<part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
 <part name="BME_ADR" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -20046,7 +20029,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH"/>
 <part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="U2" library="SparkFun-Sensors" deviceset="ENS-160" device=""/>
+<part name="U2" library="SparkFun-Sensors" deviceset="ENS-160" device="" value="ENS160"/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="1.8V" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -20078,7 +20061,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="H1" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
-<part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
@@ -20089,7 +20072,7 @@ Standard 0402 sized pads with cathode pin indicator.
 To remove pullups</text>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector" align="center-left">V11</text>
 <text x="170.688" y="12.446" size="2.54" layer="94" font="vector" align="center-left">Nathan Seidle</text>
-<text x="201.676" y="97.536" size="1.778" layer="97" font="vector" align="top-left">ADR2 sets the I2C address
+<text x="201.676" y="97.536" size="1.778" layer="97" font="vector" align="top-left">BME_ADR sets the I2C address
 of the BME280.
 Open (Default) - 0x77
 Closed - 0x76
@@ -20144,6 +20127,8 @@ to disable Power LED</text>
 <wire x1="40.64" y1="68.58" x2="40.64" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="91.44" y="60.96" size="2.54" layer="94" font="vector" align="center">Connectors</text>
 <wire x1="147.32" y1="68.58" x2="147.32" y2="35.56" width="0.2032" layer="97" style="longdash"/>
+<text x="200.66" y="172.72" size="1.778" layer="97" font="vector" rot="MR0" align="center">VDD Range: 1.71V - 3.6V
+VDDIO Range: 1.2V - 3.6V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
