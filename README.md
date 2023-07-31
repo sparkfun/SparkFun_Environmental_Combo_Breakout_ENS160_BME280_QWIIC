@@ -18,7 +18,7 @@ Documentation
 --------------
 * **[ENS160 Library](https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-ENS160_Arduino_Library)** - Arduino library for the ENS160
 * **[BME280 Library](https://github.com/sparkfun/SparkFun_BME280_Arduino_Library)** - Arduino library for the BME280
-  **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the Environmental Combo Breakout - ENS160/BME280.
+*  **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the Environmental Combo Breakout - ENS160/BME280.
   
 Product Versions
 ----------------
