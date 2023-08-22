@@ -1,4 +1,4 @@
-/* Ex2_Combined_Basic_Example_ENS_BME280_CSV.ino
+/* Ex2_Combined_Basic_Example_ENS160_BME280_CSV.ino
 
  This example shows basic data retrieval from the SparkFun Environmental Combo Breakout
  from the Air Quality Sensor (ENS160) and Atmospheric Sensor (BME280). This example shows
