@@ -16,8 +16,9 @@
     _✓_ Update tag for ENS160 Arduino Library, Eli will do that
     _✓_ Check with Eli on ensStatus and output
     _✓_ Merge this into Main Branch
+    _✓_ Update Examples to point to Firmware Folder
     ___ Update README.md for ENS160 Arduino Library => https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-ENS160_Arduino_Library
-    ___ Update Examples to point to Firmware Folder
+
 
 
 -->
