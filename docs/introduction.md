@@ -46,7 +46,9 @@ The [SparkFun Qwiic Environmental Combo Breakout - ENS160/BME280](https://www.sp
 </div>
 </center>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/78wqEFfHv_c?si=gWOqpgGb7HURjOYh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div style="text-align: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/78wqEFfHv_c?si=gWOqpgGb7HURjOYh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 In this tutorial, we'll go over the hardware and how to hookup the sensor to an Arduino. We will also go over the basic Arduino examples to get started!
 
