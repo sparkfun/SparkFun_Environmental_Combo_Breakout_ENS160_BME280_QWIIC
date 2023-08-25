@@ -1,28 +1,3 @@
-<!--
-    TODO
-    _✓_ Introduction
-    _✓_ Suggested Reading, add RedBoard Qwiic tutorial...
-    _✓_ Hardware Overview
-      _✓_ adjust height of all images...
-      _✓_ Check with other tutorials to see if we can add anything else
-    _✓_ Hardware Hookup
-      _✓_ Soldering to the PTHs and jumpers
-    _✓_ Arduino Libraries
-    _✓_ Arduino Examples
-    _✓_ Resources
-    _✓_ Troubleshooting
-    _✓_ Start up and warm up times
-    _✓_ SFE Product Showcase in Introduction and Resources...
-    _✓_ Update tag for ENS160 Arduino Library, Eli will do that
-    _✓_ Check with Eli on ensStatus and output
-    _✓_ Merge this into Main Branch
-    _✓_ Update Examples to point to Firmware Folder
-    ___ Update README.md for ENS160 Arduino Library => https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-ENS160_Arduino_Library
-
-
-
--->
-
 The [SparkFun Qwiic Environmental Combo Breakout - ENS160/BME280](https://www.sparkfun.com/products/22858) takes care of all your atmospheric-quality sensing needs with the popular ENS160 and BME280 ICs. This unique breakout provides a variety of environmental data, including AQI, TVOCs, equivalent CO<sub>2</sub> (or eCO<sub>2</sub>) levels, barometric pressure, humidity, and temperature.
 
 <center>
