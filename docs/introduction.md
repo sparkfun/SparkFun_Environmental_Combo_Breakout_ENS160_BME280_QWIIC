@@ -54,7 +54,7 @@ To follow along with this tutorial, you will need the following materials. You m
     <a href="https://www.sparkfun.com/products/15123">
       <b>SparkFun RedBoard Qwiic</b>
       <br />
-      WRL-19177
+      DEV-15123
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/10215">
