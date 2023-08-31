@@ -4,7 +4,7 @@ The Environmental Combo Board breaks out the I<sup>2</sup>C port for the ENS160 
   <table>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/22858-SEN_Environmental_Combo_Sensor_ENS160_BME280_Qwiic-ENS160_Highlighted.jpg"><img src="../assets/img/22858-SEN_Environmental_Combo_Sensor_ENS160_BME280_Qwiic-ENS160_Highlighted.jpg" width="600px" height="600px" alt="ENS160 Highlighted"></a></td>
-     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img22858-SEN_Environmental_Combo_Sensor_ENS160_BME280_Qwiic-BME280_Highlighted.jpg/"><img src="../assets/img/22858-SEN_Environmental_Combo_Sensor_ENS160_BME280_Qwiic-BME280_Highlighted.jpg" width="600px" height="600px" alt="BME280 Highlighted"></a></td>
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/22858-SEN_Environmental_Combo_Sensor_ENS160_BME280_Qwiic-BME280_Highlighted.jpg/"><img src="../assets/img/22858-SEN_Environmental_Combo_Sensor_ENS160_BME280_Qwiic-BME280_Highlighted.jpg" width="600px" height="600px" alt="BME280 Highlighted"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td align="center">ENS160 Highlighted</td>
