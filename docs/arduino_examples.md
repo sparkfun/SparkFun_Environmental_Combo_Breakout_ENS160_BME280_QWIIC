@@ -2,7 +2,6 @@ Now that we have our library installed, we can get started playing around with o
 
 
 
-
 ### Example 1: ENS160 and BME280 Combined Examples
 
 Below is the combined example to read ENS160 and BME280. Copy and paste the code below in your Arduino IDE.
