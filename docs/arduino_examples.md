@@ -1,4 +1,4 @@
-Now that we have our library installed, we can get started playing around with our examples for each sensor. For the scope of this tutorial, we will combine the basic examples to output the values to a Serial Monitor. Then we will use the BME280's temperature and relative humidity. From there we will be able to build our own custom code to integrate the sensor into a project.
+Now that we have our library installed, we can get started playing around with our examples for each sensor. For the scope of this tutorial, we will combine the basic examples to output the values to a Serial Monitor. Then we will use the BME280 to compensate for the temperature and relative humidity. From there we will be able to build our own custom code to integrate the sensor into a project.
 
 
 
