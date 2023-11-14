@@ -41,7 +41,7 @@ To follow along with this tutorial, you will need the following materials. You m
     * [Flexible Qwiic Cable - 50mm [PRT-17260]](https://www.sparkfun.com/products/17260), for short distances
     * [Flexible Qwiic Cable - 500mm [PRT-17257]](https://www.sparkfun.com/products/17257), for those that need to wire the board farther away from your microcontroller
 
-<div class="grid cards hide col-4" markdown>
+<div class="grid cards col-4" markdown>
 
 -   <a href="https://www.sparkfun.com/products/15123">
       <figure markdown>
@@ -113,7 +113,7 @@ For those that need to solder to the PTHs, you will need to solder two wires bet
 * [Soldering Iron [TOL-14456]](https://www.sparkfun.com/products/14456)
 * [Solder Lead Free - 15-gram Tube [TOL-9163]](https://www.sparkfun.com/products/9163)
 
-<div class="grid cards hide col-4" markdown>
+<div class="grid cards col-4" markdown>
 
 -   <a href="https://www.sparkfun.com/products/11375">
       <figure markdown>
@@ -195,7 +195,7 @@ If you aren't familiar with the Qwiic Connection System, we recommend reading [h
 
 If you aren’t familiar with the following concepts, we also recommend checking out a few of these tutorials before continuing.
 
-<div class="grid cards hide col-4" markdown>
+<div class="grid cards col-4" markdown>
 
 -   <a href="https://learn.sparkfun.com/tutorials/redboard-qwiic-hookup-guide">
       <figure markdown>
