@@ -10,5 +10,5 @@ Now that you've successfully got your SparkFun Environmental Combo Breakout - EN
 * Arduino Libraries
     * [ENS160](https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-ENS160_Arduino_Library)
     * [BME280](https://github.com/sparkfun/SparkFun_BME280_Arduino_Library)
-* [GitHub Hardware Repo](https://github.com/sparkfun/SparkFun_Environmental_Combo_Breakout_ENS160_BME280_QWIIC)
+* [Fritzing Part](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/22858_sfe_qwiic_environmental_combo_ens160_bme280.fzpz)
 * [SFE Product Showcase](https://youtu.be/78wqEFfHv_c?si=ASorMzOgZIkLuGjM)

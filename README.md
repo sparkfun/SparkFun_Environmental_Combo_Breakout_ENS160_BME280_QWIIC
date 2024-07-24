@@ -18,8 +18,9 @@ Documentation
 --------------
 * **[ENS160 Library](https://github.com/sparkfun/SparkFun_Indoor_Air_Quality_Sensor-ENS160_Arduino_Library)** - Arduino library for the ENS160
 * **[BME280 Library](https://github.com/sparkfun/SparkFun_BME280_Arduino_Library)** - Arduino library for the BME280
-*  **[Hookup Guide](http://docs.sparkfun.com/SparkFun_Environmental_Combo_Breakout_ENS160_BME280_QWIIC/)** - Basic hookup guide for the Environmental Combo Breakout - ENS160/BME280.
-  
+* *** [Fritzing Part](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/22858_sfe_qwiic_environmental_combo_ens160_bme280.fzpz)** - Fritzing Part for the Environmental Combo Breakout - ENS160/BME280.
+* **[Hookup Guide](http://docs.sparkfun.com/SparkFun_Environmental_Combo_Breakout_ENS160_BME280_QWIIC/)** - Basic hookup guide for the Environmental Combo Breakout - ENS160/BME280.
+
 Product Versions
 ----------------
 * [SEN-22858](https://www.sparkfun.com/products/22858) - v1.1
@@ -31,9 +32,9 @@ Version History
 License Information
 -------------------
 
-This product is _**open source**_! 
+This product is _**open source**_!
 
-Please review the LICENSE.md file for license information. 
+Please review the LICENSE.md file for license information.
 
 If you have any questions or concerns on licensing, please contact technical support on our [SparkFun forums](https://forum.sparkfun.com/viewforum.php?f=152).
 
